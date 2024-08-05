@@ -66,14 +66,16 @@ const Navbar = () => {
             </div>
             <hr className="w-0 h-7 border border-solid border-l border-gray-300 mx-3" />
             <div className="flex items-center gap-3 cursor-pointer">
-                {/* <Image
-                src="https://s3-inventorymanagement.s3.us-east-2.amazonaws.com/profile.jpg"
+                <Image
+                src="https://s3-invetorio.s3.eu-west-3.amazonaws.com/profile.jpg"
                 alt="Profile"
                 width={50}
                 height={50}
-                className="rounded-full h-full object-cover"
-                /> */}
-                <span className="font-semibold">khairallah</span>
+                className="rounded-full h-11 w-11 object-cover"
+                />
+                <Link href="https://github.com/khairallah17">
+                    <span className="font-semibold hover:underline transition-all duration-200 hover:text-blue-500">khairallah</span>
+                </Link>
             </div>
             </div>
             <Link href="/settings">

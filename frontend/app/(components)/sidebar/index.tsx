@@ -60,8 +60,8 @@ const Sidebar = () => {
             <div className={`flex gap-3 justify-between md:justify-normal items-center pt-8 ${isSidebarCollapsed ? "px-5" : "px-8"}`}>
                 {
                     isSidebarCollapsed
-                        ? <Image src="/logo-sm.png" alt="" height={21} width={21} />
-                        : <Image src={!isDarkMode ? "/logo-light.png" : "/logo-dark.png"} alt='' width={164} height={0}/>
+                        ? <Image src="https://s3-invetorio.s3.eu-west-3.amazonaws.com/logo-sm.png" alt="" height={21} width={21} />
+                        : <Image src={!isDarkMode ? "https://s3-invetorio.s3.eu-west-3.amazonaws.com/logo-light.png" : "https://s3-invetorio.s3.eu-west-3.amazonaws.com/logo-dark.png"} alt='' width={164} height={0}/>
                 }
 
                 <button className='md:hidden px-3 py-3 rounded-full bg-gray-100 hover-blue-100' onClick={toggleSidebar}>
