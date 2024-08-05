@@ -50,6 +50,12 @@ export interface DashboardMetrics {
     expenseByCategorySummary: ExpenseByCategorySummary[]
 }
 
+export interface User {
+    userId: string,
+    name: string,
+    email: string,
+}
+
 export const api = createApi({
     baseQuery: fetchBaseQuery({ baseUrl: process.env.NEXT_PUBLIC_API_BASE_URL }),
     reducerPath: "api",
